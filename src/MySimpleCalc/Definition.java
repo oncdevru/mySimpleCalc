@@ -39,7 +39,7 @@ public class Definition {
                 isError = setError(true);
             } else if (!isRoman && (Integer.parseInt(expression[0]) > 10 || Integer.parseInt(expression[1]) > 10)) {
                 isError = setError(true);
-                System.out.println("BOLSHE 10");
+                System.out.println("Введено число больше 10");
             }
         }else {
             isError = setError(true);
